@@ -30,19 +30,19 @@ public class Product {
     }
 
     // Setters
-    public void setId() {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public void setName(){
+    public void setName(String name){
         this.name = name;
     }
 
-    public void setPrice(){
+    public void setPrice(double price){
         this.price = price;
     }
 
-    public void setQuantity(){
+    public void setQuantity(int quantity){
         this.quantity = quantity;
     }
 
